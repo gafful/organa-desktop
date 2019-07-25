@@ -1,0 +1,26 @@
+{
+  "name": "organa-desktop",
+  "version": "1.0.0",
+  "description": "A desktop utility app for organising audio files.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gafful/organa-desktop.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Godfred Afful",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gafful/organa-desktop/issues"
+  },
+  "homepage": "https://github.com/gafful/organa-desktop#readme",
+  "devDependencies": {
+    "electron": "^5.0.8"
+  }
+}
