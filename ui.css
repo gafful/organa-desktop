@@ -1,0 +1,79 @@
+/* Clear defaults */
+HTML, body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    height: 600px;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color: blueviolet;
+    height: 15%;
+}
+
+.row {
+    margin-top: 10px;
+    height: 65%; 
+}
+
+.panel {
+    width: 140px;
+    float: left;
+    margin-left: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(102, 190, 80);
+}
+
+.src-pnl-1 {
+    margin-left: 5px;
+}
+
+.src-btn {
+    margin-left: 0px;
+    margin-right: 25px;
+}
+
+.src-row, .dest-row {
+    height: 20%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.src-panel:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.disp-row {
+    height: 60%;
+    padding: 10px;
+    background-color:rgb(145, 54, 187);
+}
+
+.disp-label {
+    text-align: center;
+}
+
+.disp-screen {
+    margin-top: 10px;
+}
+
+.footer {
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+    margin-top: 10px;
+    height: 15%;
+}
